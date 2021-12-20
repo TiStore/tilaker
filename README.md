@@ -1,17 +1,6 @@
-# 基于 TiDB 和 Flink CDC 的数据湖构建
+# TiLaker：为 TIDB 插上入湖的翅膀
 
-## 团队
-#### 团队名字：TiLaker
-#### 队长姓名： 吴雪莲(AndreMouche)
-#### 成员：
-```
-AndreMouche: 资深可乐炸鸡程序媛，分布式存储研发工程师，开源软件爱好者。
-CabinfeverB: 资深分布式调度系统专家，开源软件爱好者。
-SteNicholas: 开源软件爱好者，全栈工程师，Apache ShardingSohere & Apache RocketMQ Commttier
-LeonardBang: 开源软件爱好者，实时计算工程师，Flink CDC Maintainer & Apache Flink Committer
-```
-#### 战队宣言：//TODO
-
+### [团队介绍](./docs/team.md)
 
 ### 背景
 ```
@@ -22,7 +11,6 @@ TiDB 是 PingCAP 公司自主设计、研发的开源分布式关系型数据库
 两者还是割裂的链路，TiDB 也无法通过实时物化视图完成数据入湖的实时清洗和加工，而这正是 Flink CDC 所能提供的核心能力，
 因此我们非常自然地想到通过 Flink CDC 帮助 TiDB 用户更轻松地完成数据湖的构建。
 ```
-
 
 ### 目标
 * 1.为 TiDB 插上入湖的翅膀
