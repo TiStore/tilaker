@@ -11,4 +11,5 @@
 - [LeonardBang](https://github.com/LeonardBang): 开源软件爱好者，实时计算工程师，Flink CDC Maintainer & Apache Flink Committer
 
 ### 战队宣言
-//TODO
+
+TiLaker 在手，说入湖就入湖
